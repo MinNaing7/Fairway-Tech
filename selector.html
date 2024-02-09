@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector</title>
+  <style>
+    h1 {
+      color : #ff0000;
+    }
+    #title {
+      color : #0000ff;
+    }
+    .sub-title {
+      color : #00ff00;
+    }
+
+    div i {
+      color: red;
+    }
+    div > span {
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1>Element</h1>
+  <h2 id="title">ID</h2>
+  <h3 class="sub-title">Class</h3>
+
+  <strong>Group</strong>
+  <a href="">Group</a>
+
+  <i>Outside</i>
+  <div>
+    <i>Descendent</i>
+  </div>
+  <li>Outside</li>
+
+  <span>Outside</span>
+  <div>
+    <span>Child</span>
+    <p>
+      <span>Indirect</span>
+    </p>
+  </div>
+</body>
+</html>
